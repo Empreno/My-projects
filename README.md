@@ -6,7 +6,7 @@
 **•** Результирующие метрики: Test AUC: 0.849, Precision: 0.49, Recall: 0.86, Accuracy: 0.76 (порог классификации выбран для максимального recall при оптимальном precision)  
 **•** Для дальнейшей корректировки (баланс между precision/recall) требуется уточнение бизнес задачи  
 **•** Модель отлавливает 86% пользователей, склонных к уходу   
-**PROD:** Модель контейнеризована через Docker, написан веб-интерфейс через streamlit для взаимодействия
+**PROD:** Подготовлен скрипт предобработки данных, модель контейнеризована через Docker, написан веб-интерфейс через streamlit для взаимодействия
 
 <img width="707" height="889" alt="image" src="https://github.com/user-attachments/assets/139ca1b7-7aa4-447c-b15c-b246c46bbcb0" />
 <img width="709" height="238" alt="image" src="https://github.com/user-attachments/assets/1694ff6d-7b1d-443a-9558-84e3975f99f4" />
